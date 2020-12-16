@@ -1,0 +1,65 @@
+@font-face {
+	font-family: 'Lato';
+	src: url('subset-Lato-Italic.eot');
+	src: url('subset-Lato-Italic.eot?#iefix') format('embedded-opentype'),
+		url('subset-Lato-Italic.woff') format('woff'),
+		url('subset-Lato-Italic.ttf') format('truetype'),
+		url('subset-Lato-Italic.svg#Lato-Italic') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url('subset-Lato-Black.eot');
+	src: url('subset-Lato-Black.eot?#iefix') format('embedded-opentype'),
+		url('subset-Lato-Black.woff') format('woff'),
+		url('subset-Lato-Black.ttf') format('truetype'),
+		url('subset-Lato-Black.svg#Lato-Black') format('svg');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url('subset-Lato-Regular.eot');
+	src: url('subset-Lato-Regular.eot?#iefix') format('embedded-opentype'),
+		url('subset-Lato-Regular.woff') format('woff'),
+		url('subset-Lato-Regular.ttf') format('truetype'),
+		url('subset-Lato-Regular.svg#Lato-Regular') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url('subset-Lato-BoldItalic.eot');
+	src: url('subset-Lato-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('subset-Lato-BoldItalic.woff') format('woff'),
+		url('subset-Lato-BoldItalic.ttf') format('truetype'),
+		url('subset-Lato-BoldItalic.svg#Lato-BoldItalic') format('svg');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url('subset-Lato-Bold.eot');
+	src: url('subset-Lato-Bold.eot?#iefix') format('embedded-opentype'),
+		url('subset-Lato-Bold.woff') format('woff'),
+		url('subset-Lato-Bold.ttf') format('truetype'),
+		url('subset-Lato-Bold.svg#Lato-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url('subset-Lato-BlackItalic.eot');
+	src: url('subset-Lato-BlackItalic.eot?#iefix') format('embedded-opentype'),
+		url('subset-Lato-BlackItalic.woff') format('woff'),
+		url('subset-Lato-BlackItalic.ttf') format('truetype'),
+		url('subset-Lato-BlackItalic.svg#Lato-BlackItalic') format('svg');
+	font-weight: 900;
+	font-style: italic;
+}

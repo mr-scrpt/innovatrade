@@ -1,0 +1,170 @@
+@font-face {
+    font-family: SFUIDisplay-Light; /* Имя шрифта */
+    src: url(/registrationForm/fonts/SFUIDisplay-Light.eot); /* Путь к файлу со шрифтом */
+    src: url('/registrationForm/fonts/SFUIDisplay-Light.eot?iefix') format('eot');
+}
+@font-face {
+    font-family: SFUIDisplay-Thin; /* Имя шрифта */
+    src: url(/registrationForm/fonts/SFUIDisplay-Thin.eot); /* Путь к файлу со шрифтом */
+    src: url('/registrationForm/fonts/SFUIDisplay-Thin.eot?iefix') format('eot');
+}
+@font-face {
+    font-family: SFUIDisplay-Ultralight; /* Имя шрифта */
+    src: url(/registrationForm/fonts/SFUIDisplay-Ultralight.eot); /* Путь к файлу со шрифтом */
+    src: url('/registrationForm/fonts/SFUIDisplay-Ultralight.eot?iefix') format('eot');
+}
+
+#registrationForm {
+    display: block;
+    width: 100%;
+    min-width: 220px;
+    max-width: 450px;
+    margin: 1.5rem auto;
+    font-family: 'SFUIDisplay-Thin', sans-serif;
+}
+
+#registrationForm .form-group {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+#registrationForm .custom-select {
+    display: block;
+    width: 100%;
+    max-height: 42px;
+    padding: .375rem 1.75rem .375rem .75rem;
+    line-height: 1.5;
+    color: #3e495c;
+    font-family: 'SFUIDisplay-Thin', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    vertical-align: middle;
+    background-color: #fff;
+    border: 1px solid #9EA4AD;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: .2s;
+}
+
+#registrationForm .custom-select option  {
+    background-color: #fafafa !important;
+}
+#registrationForm .form-control {
+    display: block;
+    width: 100%;
+    max-height: 42px;
+    padding: .375rem 1.75rem .375rem .75rem;
+    line-height: 1.5;
+    font-family: 'SFUIDisplay-Thin', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    vertical-align: middle;
+    color: #3e495c;
+    background-color: #fff;
+    border: 1px solid #9EA4AD;
+    border-radius: 0;
+    box-sizing: border-box;
+    outline: none;
+    transition: .2s;
+}
+#registrationForm .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+#registrationForm .custom-select:focus,
+#registrationForm .form-phone:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.075), 0 0 5px rgba(128,189,255,.5);
+}
+
+#registrationForm .form-control::placeholder {
+    font-size: 16px;
+    color: rgba(62, 73, 92, .9);
+    font-family: 'SFUIDisplay-Ultralight', sans-serif;
+    font-weight: 200;
+}
+
+#registrationForm .form-group:nth-child(1):after {
+    content: '';
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-left: 1px solid #3e495c;
+    border-bottom: 1px solid #3e495c;
+    position: absolute;
+    right: 10px;
+    top: 65%;
+    transform: translateY(-50%) rotate(-45deg);
+}
+#registrationForm .form-phone {
+    padding-left: 50px;
+}
+#registrationForm .button-main {
+    width: 100%;
+    border: 1px solid transparent;
+    background-color: #f82f4a;
+    color: #fff;
+    font-family: 'SFUIDisplay-Thin', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    letter-spacing: .1rem;
+    line-height: 70px;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#registrationForm .button-main:hover {
+    background-color: #ffffff;
+    border: 1px solid #f82f4a;
+    color: #f82f4a;
+}
+
+#registrationForm .form-group p,
+#registrationForm .form-group label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #3e495c;
+    margin-bottom: 5px !important;
+}
+
+#registrationForm .form-group p a,
+#registrationForm .form-group label a {
+    color: #f82f4a;
+}
+
+#registrationForm .form-group .form-info {
+    display: flex !important;
+    align-items: center !important;
+    height: 18px !important;
+    font-size: 16px;
+    font-weight: 500;
+    color: #3e495c;
+    margin: 3px;
+}
+#registrationForm .form-text {
+    color: #f82f4a;
+    display: inline !important;
+    margin: 0 4px !important;
+}
+#registrationForm .custom-select.valid,
+#registrationForm .form-control.valid {
+    border: 1px solid #2c711b !important;
+    box-shadow: 0 0 0 0.2rem rgba(44, 113, 27, .20);
+}
+#registrationForm .custom-select.error,
+#registrationForm .form-control.error {
+    border: 1px solid #f82f4a !important;
+    box-shadow: 0 0 0 0.2rem rgba(248, 47, 74, .20) !important;
+}
